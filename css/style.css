@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, hsl(240, 73%, 65%), hsl(240, 73%, 65%));
+}
+
+
+/* container styling */
+
+.container {
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    max-width: 850px;
+    height: 80vh;
+    background: linear-gradient(to top, hsl(240, 5%, 91%), hsl(240, 5%, 91%));
+    border-radius: 20px;
+}
+
+
+/* iamge-display styling */
+
+.image-display {
+    width: 100%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#bg-desktop {
+    clip-path: polygon(50% 38%, 100% 8%, 100% 100%, 50% 100%);
+    width: 170%;
+    position: relative;
+    left: -400px;
+    top: 240px;
+}
+
+
+/* bg pattern styling */
+
+
+/* box Image styling */
+
+
+/* w-online styling */
+
+#w-online {
+    position: relative;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 19% 100%);
+    left: -80px;
+    top: -320px;
+}
+
+#boxImage {
+    position: relative;
+    width: 40%;
+    left: -80px;
+    top: -550px;
+    bottom: 150px;
+}
+
+
+/* questions styling */
+
+.questions {
+    padding-top: 80px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+#parag1 {
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#parag2 {
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#parag3 {
+    padding-right: 78px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#parag4 {
+    padding-right: 77px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#parag5 {
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.qn1 {
+    display: flex;
+    padding-bottom: 20px;
+    color: hsl(237, 12%, 33%);
+}
+
+label {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: hsl(237, 12%, 33%);
+}
+
+.labelText {
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.qn3,
+.qn4,
+.qn5 {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: hsl(237, 12%, 33%);
+}
+
+hr {
+    width: 300px;
+    color: hsl(240, 5%, 91%);
+}
