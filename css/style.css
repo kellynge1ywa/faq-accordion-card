@@ -138,6 +138,10 @@ label {
     color: hsl(237, 12%, 33%);
 }
 
+#arrow-up {
+    transform: rotate(180deg);
+}
+
 hr {
     width: 300px;
     color: hsl(240, 5%, 91%);
